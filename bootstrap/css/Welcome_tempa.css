@@ -1,0 +1,400 @@
+/* login form */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body,
+h1,
+h2,
+
+h4,
+h5,
+h6,
+button,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2,
+
+h4,
+h5,
+h6,
+a{
+  color: #ffffff;
+}
+.h3{
+color: #7A33FF; 
+
+}
+
+
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+  color:#999999;
+}
+.bgimg{
+background: url(../images/welcomeimages/Dashboardbg.png);
+padding-bottom: 0px;
+margin-bottom: 0;
+height: 70px;
+}
+
+.logo{
+  padding-left: 8px;
+  margin-left: 6%;
+
+}
+.margin-top{
+
+margin-top: 3%;
+
+}
+.footerpads{
+
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.marginnav{
+
+  margin-top: 0;
+  padding:0;
+
+}
+.boundings{
+
+  padding-left: 15%;
+}
+.top-paddings{
+
+margin-top: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+
+}
+.col-md-2{
+  .padding: 0px;
+
+
+}
+.bgimageFooter{
+  background: url(../images/welcomeimages/Upfooter.png);
+  height:200px;
+}
+.paddAjust{
+
+  padding-left: 0px;
+}
+
+.welcomedash{
+padding-top: 10px;
+
+  
+  
+}
+
+.dashAdjust{
+  padding-top: 10px;
+  width: 100%;
+
+}
+
+.padsoffsite{
+  padding-left: 3%;
+
+}
+.footeradjustment{
+
+  padding-left: 10%;
+  padding-top: 20px;
+}
+
+
+.padadjustment{
+padding-left: 0;
+padding-top: 3%;
+padding-bottom: 1%;
+}
+.bottompads{
+  padding-bottom: 2%;
+}
+
+.middletier{
+  
+  background: url(../images/welcomeimages/Backheader.jpg);
+  height:400px;
+
+}
+
+
+.container {
+    padding: 0px 0px 0px 0px;
+}
+
+
+.footerbg{
+
+background: url(../images/welcomeimages/footerbg.png);
+
+}
+
+.welcomejoe{
+
+  padding-left: 42%;
+  padding-top: 5%;
+}
+.aligndividers{
+ bottom: 67px;
+
+}
+
+.headerimage{
+  
+
+  position: relative;
+  margin-right: 0%;
+
+}
+.moreadjust{
+    position: absolute;
+  z-index: 100;
+  left:415px;
+  bottom: 11%;
+  
+  padding-bottom: 15px;
+}
+
+.frontimages{
+  position: absolute;
+  z-index: 90;
+  left:10px;
+  bottom: 11%;
+  margin-right: 0px;
+  padding-bottom: 10px;
+}
+.moreImage{
+  position:relative;
+  left:10px;
+  right: 11%;
+  margin-right: 0px;
+  padding-bottom: 10px;
+
+}
+.stepTwoPosition{
+  top:90px;
+
+}
+
+.ImageOneStep2{
+ position: relative;
+  
+
+
+
+}
+.ImagetwoStep2{
+position: absolute;
+  z-index: 90;
+  
+  left:40%;
+  bottom:5%;
+
+  
+
+
+}
+
+.stepone{
+
+  margin-left: 8%;
+}
+.welcomestart{
+
+  padding-left: 34%;
+  padding-top: 3%;
+
+}
+.no-margin{
+padding:0;
+margin: 0;
+
+}
+
+
+.paddertop{
+
+  padding-top: 7%;
+
+}
+
+.steptwo{
+    background: url(../images/welcomeimages/BG4.png);
+
+    padding-top: 8%;
+}
+
+
+.GetStarted{
+
+  padding-left: 44%;
+  padding-top: 3%;
+
+}
+
+.form-login {
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.paddingForcustomer{
+
+padding-left: 0;
+
+}
+
+
+
+.wrapper {
+    text-align: center;
+}
+.login_btn {
+  font-size: large;
+  background-color: #9966cc;
+  border: #9966cc;
+  width: 100%;
+  border-radius: 25px;
+  padding:20px;
+  margin: 40px 0 40px 0;
+  font-weight: bolder;
+}
+.work_btn {
+  font-size: large;
+  background-color: #ffffff;
+  border: #ffffff;
+  width: 100%;
+  border-radius: 25px;
+  padding:20px;
+  margin: 40px 0 40px 0;
+  color: #9966cc;
+  font-weight: bolder;
+}
+.work_btn:hover {
+  background-color: #ffffff;
+  border: #ffffff;
+  color: #9966cc;
+  text-decoration: underline;
+}
+.work_btn:active {
+  background-color: #ffffff;
+  border: #ffffff;
+  color: #9966cc;
+  font-weight: bolder;
+}
+.facebook_signup_button {
+  font-size: large;
+  background-color: #336699;
+  border: #336699;
+  width: 100%;
+  border-radius: 25px;
+  padding:20px;
+  margin: 40px 0 40px 0;
+  font-weight: bolder;
+}
+.login_form_text {
+  color: #9966cc;
+}
+.login-header {
+  font-weight: bold;
+  margin: 30px 0 30px 0;
+}
+.login_label {
+  color: #999999;
+  font-size: smaller;
+}
+.login_textbox {
+  box-shadow: inset 0px 0px 0px 0px white;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+}
+.login_textbox.password{
+  width:80%;
+}
+/* -- signup page styles -- */
+
+
+.signup-img-circle {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+ .profileImageContainer {
+     position: relative;
+     top:50px;
+     margin: auto;
+     width: 120px;
+     height: 120px;
+ }
+ .addImageIcon {
+     max-width: 30px;
+     float: right;
+     position: relative;
+     left: 0px;
+     top: 0px;
+     z-index: 1000;
+     margin-bottom: -40px;
+ }
+
+.form-signup {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+/* line behind effect on the signup pages */
+linebehind {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+linebehind:before,
+linebehind:after {
+  flex-grow: 1;
+  height: 1px;
+  content: '\a0';
+  background-color: #ddd;
+  position: relative;
+  top: 0.5em;
+}
+
+linebehind:before {
+  margin-right:10px;
+}
+
+linebehind:after {
+  margin-left:10px;
+}
