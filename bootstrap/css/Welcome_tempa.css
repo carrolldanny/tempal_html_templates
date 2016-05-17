@@ -28,11 +28,39 @@ h6,
 a{
   color: #ffffff;
 }
+
+
 .h3{
 color: #7A33FF; 
 
 }
+@media (max-width: @screen-lg) {
+    body{font-size: 15px;}
+}
+@media (max-width: @screen-md) {
+    body{font-size: 15px;}
+}
 
+@media (max-width: @screen-xs) {
+    body{font-size: 1px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 1px;}
+}
+h5{
+    font-size: 0.7em;
+}
+h6{
+  font-size: 0.6em;
+}
+h4{
+  font-size: 1.0em;
+}
+h3{
+  font-size: 1.5em;
+
+}
 
 body {
   background-color:#fff;
@@ -41,7 +69,7 @@ body {
   color:#999999;
 }
 .bgimg{
-background: url(../images/welcomeimages/Dashboardbg.png);
+background: url("../images/welcomeimages/Dashboardbg.png");
 padding-bottom: 0px;
 margin-bottom: 0;
 height: 70px;
@@ -75,69 +103,59 @@ margin-top: 3%;
 }
 .top-paddings{
 
-margin-top: 5%;
-padding-top: 5%;
-padding-bottom: 5%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
 }
-.col-md-2{
-  .padding: 0px;
 
-
-}
 .bgimageFooter{
   background: url(../images/welcomeimages/Upfooter.png);
   height:200px;
 }
-.paddAjust{
 
-  padding-left: 0px;
-}
+
 
 .welcomedash{
-padding-top: 10px;
-
-  
-  
-}
+    padding-top: 10px;
+    float: right;
+  }
 
 .dashAdjust{
-  padding-top: 10px;
-  width: 100%;
+    padding-top: 10px;
+    width: 100%;
 
-}
+  }
 
 .padsoffsite{
-  padding-left: 3%;
-
+    padding-left: 3%;
 }
 .footeradjustment{
+    padding-left: 10%;
+    padding-top: 20px;
+  }
 
-  padding-left: 10%;
-  padding-top: 20px;
-}
-
-
-.padadjustment{
-padding-left: 0;
-padding-top: 3%;
-padding-bottom: 1%;
-}
-.bottompads{
-  padding-bottom: 2%;
-}
-
-.middletier{
+  .padadjustment{
+  padding-left: 0;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  }
   
-  background: url(../images/welcomeimages/Backheader.jpg);
-  height:400px;
+  .bottompads{
+  padding-bottom: 2%;
+  }
 
-}
-
-
-.container {
+  .middletier{
+  
+   background: url(../images/welcomeimages/Backheader.jpg) ;
+   height:400px;
+  }
+  .image-adjustment{
+    bottom: 200px;
+  }
+  .container {
     padding: 0px 0px 0px 0px;
-}
+  }
 
 
 .footerbg{
@@ -155,6 +173,15 @@ background: url(../images/welcomeimages/footerbg.png);
  bottom: 67px;
 
 }
+.topPaddingonwelcome{
+  padding-top: 6%;
+
+}
+
+.textalignment{
+
+  text-align: justify;
+}
 
 .headerimage{
   
@@ -163,27 +190,51 @@ background: url(../images/welcomeimages/footerbg.png);
   margin-right: 0%;
 
 }
-.moreadjust{
-    position: absolute;
-  z-index: 100;
-  left:415px;
-  bottom: 11%;
-  
-  padding-bottom: 15px;
+.stepsmarginAlign{
+
+  margin-left: 0;
+}
+.bookingpads{
+  padding-top: 4%;
+
 }
 
+.stepthreeleft{
+position: absolute;
+  z-index: 90;
+  left:0px;
+  bottom: 11%;
+  margin-left: 150px;
+  padding-bottom: 10px;
+
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.moreadjust{
+    position: absolute;
+ 
+  left:380px;
+  bottom: 11%;
+  padding-bottom: 15px;
+}
+.buttonAdjust {
+
+  padding-top:6%;
+}
 .frontimages{
   position: absolute;
   z-index: 90;
-  left:10px;
+  left:0px;
   bottom: 11%;
   margin-right: 0px;
   padding-bottom: 10px;
 }
 .moreImage{
-  position:relative;
-  left:10px;
-  right: 11%;
+  position:absolute;
+   z-index: 80;
+  
   margin-right: 0px;
   padding-bottom: 10px;
 
@@ -195,7 +246,8 @@ background: url(../images/welcomeimages/footerbg.png);
 
 .ImageOneStep2{
  position: relative;
-  
+  right:20px;
+  bottom: 40px;
 
 
 
@@ -203,8 +255,7 @@ background: url(../images/welcomeimages/footerbg.png);
 .ImagetwoStep2{
 position: absolute;
   z-index: 90;
-  
-  left:40%;
+  left:10%;
   bottom:5%;
 
   
@@ -234,15 +285,20 @@ margin: 0;
   padding-top: 7%;
 
 }
+.stepthree{
+ padding-top: 1%;
+
+
+}
 
 .steptwo{
     background: url(../images/welcomeimages/BG4.png);
 
-    padding-top: 8%;
+    padding-top: 0%;
 }
 
 
-.GetStarted{
+.GetStartedButton{
 
   padding-left: 44%;
   padding-top: 3%;

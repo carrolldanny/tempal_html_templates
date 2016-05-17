@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
@@ -12,6 +13,8 @@
     <!-- supplemental CSS -->
     
     <link href="./css/Welcome_tempa.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,43 +27,46 @@
  
  <!--Welcome Navigation-->
     <div class="container bgimg" >
-      
-        <div class="row dashAdjust">
-        <div class="col-md-2 col-sm-2  logo ">
-              <a href="#"><img src="./images/welcomeimages/welcome.png"></a>
+         
+         <div class="row dashAdjust">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4  logo ">
+              <a href="#"><img src="./images/welcomeimages/welcome.png" class="img-responsive"></a>
         </div>
-        <div class=" col-md-8 col-sm-6  welcomedash">
+
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4  welcomedash">
              <div row>
-              <div class="col-md-1 col-md-push-11">
-                <a  href="#"><img src="./images/welcomeimages/Dashboard.png"></a>
-              </div>
+             
+                <a  href="welcome.html"><img src="./images/welcomeimages/Dashboard.png" class="img-responsive"></a>
+            
             </div>
       </div>
       </div>
   </div>
     
     
-    
-    
- 
 <!--Background Data-->
   <header>
 
     <div class="header-content ">
       <div class="header-content-inner">
-        <div class="container middletier "> 
-          <div class=" row welcomejoe" >
-            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0"><img src="./images/welcomeimages/wjoe.png"></div>
-          </div>
-          <div class="row welcomestart">
-             <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0"><img src="./images/welcomeimages/midtext.png"></div>
-           </div>
-        <div class="row GetStarted">
-          <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0"><input type="image" id="getstarted" src="./images/welcomeimages/btstarted.png" /></div>
-         </div>
+        <div class="container middletier img-responsive"> 
+
+            <div class="row topPaddingonwelcome">
+              
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
+                  <img src="./images/welcomeimages/wjoe.png" class="img-responsive">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4" style="padding-top:10px;">
+                  <h5> Not sure where to start? Check out our 'how it works' guide below.
+                   know what you are doing? Select 'Get Started' to proceed.
+                  </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4" style="padding-top:10px;">
+                <input type="image" id="getstarted" src="./images/welcomeimages/btstarted.png" class="img-responsive" /></div></div>
+        </div>
       </div>
     </div>
-  </div>
+  
 
 </header>
   
@@ -68,116 +74,117 @@
    
 <div class="container">
   <!-- 1st step --> 
+  
   <div class="row paddertop">
-     <div class="col-md-4 col-md-offset-0 stepone">
-      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 ">
+          
           <h3>Step 1</h3>
-      </div>
-      <div class="row">
-        <img src="./images/welcomeimages/Choose-sector.png">
-      </div>
-      <div class="row">
-          <p class="margin-top">The single colon syntax (e.g. “:before” or “:first-child”) is the syntax used for both pseudo-classes and pseudo-selectors in all versions of CSS prior to CSS3. With the introduction of CSS3, in order to make a differentiation between pseudo-classes and pseudo-elements (yes, they’re different), in CSS3 all pseudo-elements must use the double-colon syntax, and all pseudo-classes must use the single-colon syntax.</p>
-     </div>
-     <div class="row">
-       <input type="image" id="startbutton"img src="./images/welcomeimages/buttonget.png" class="buttonAdjust"/>
-    </div>
-   </div>
+          <img src="./images/welcomeimages/Choose-sector.png" class="img-responsive">
+          <img src="./images/welcomeimages/text.png" class="buttonAdjust img-responsive">
+         <!-- <img src="./images/welcomeimages/Choose-sector.png" class="img-responsive">
+          <p class="margin-top">The single colon syntax (e.g. “:before” or “:first-child”) is the syntax used for both pseudo-classes and pseudo-selectors in all versions of CSS prior to CSS3.</p>-->
 
-    <div class="col-md-1 col-md-offset-1">
-      <img src="./images/welcomeimages/divider.png">
-    </div>
-  
-    <div class="col-md-4 col-md-offset-0">
-      <img src="./images/welcomeimages/cardboard.jpg">
-    </div>
+          <input type="image" id="startbutton" src="./images/welcomeimages/buttonget.png" class="buttonAdjust img-responsive"/>
+        </div>
 
-  </div>
-  <!-- 2nd step --> 
-  <div class="row steptwo">
-    <div class="col-md-4 col-md-offset-0 stepone">
-      <div class="row">
-        <div class="col-md-10 stepTwoPosition ">
-        <img src="./images/welcomeimages/steptwoImage2.png" class="ImageOneStep2 img-responsive">
-        <img src="./images/welcomeimages/steptwoImage1.png" class="ImagetwoStep2 img-responsive">
-      </div>
-      </div>
-    </div>
-  
-    <div class="col-md-1 col-md-offset-1 aligndividers">
-      <img src="./images/welcomeimages/dividerstep2.png">
-    </div>
-  
-    <div class="col-md-4 col-md-offset-0">
-      <h3>Step 2</h3>
-      <img src="./images/welcomeimages/Select-talent.png">
-      <p class="margin-top">The single colon syntax (e.g. “:before” or “:first-child”) is the syntax used for both pseudo-classes and pseudo-selectors in all versions of CSS prior to CSS3. With the introduction of CSS3, in order to make a differentiation between pseudo-classes and pseudo-elements (yes, they’re different), in CSS3 all pseudo-elements must use the double-colon syntax, and all pseudo-classes must use the single-colon syntax.</p>
-      <input type="image" id="startbutto" src="./images/welcomeimages/buttonget.png" class="buttonAdjust"/>
-    </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <img src="./images/welcomeimages/divider.png" class="img-responsive">
+        </div>
 
-  </div>
-
-
-  <!-- Step 3-->
-  <div class="row paddertop">
-     <div class="col-md-4 col-md-offset-0 stepone">
-      <h3>Step 3</h3>
-      <img src="./images/welcomeimages/Book-talent.png">
-      <p class="margin-top">The single colon syntax (e.g. “:before” or “:first-child”) is the syntax used for both pseudo-classes and pseudo-selectors in all versions of CSS prior to CSS3. With the introduction of CSS3, in order to make a differentiation between pseudo-classes and pseudo-elements (yes, they’re different), in CSS3 all pseudo-elements must use the double-colon syntax, and all pseudo-classes must use the single-colon syntax.</p>
-      <input type="image" id="startbutton"img src="./images/welcomeimages/buttonget.png" class="buttonAdjust"/>
-    </div>
-
-    <div class="col-md-1 col-md-offset-1 aligndividers">
-       <img src="./images/welcomeimages/dividerstep3.png">
-    </div>
-  
-    <div class="col-md-4 col-md-offset-0">
-    <div class=" row bottompads" >
-      <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0 " >
+          <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5">
+            
+            <img src="./images/welcomeimages/cardboard.jpg" class="img-responsive"></div>
         
-              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage "/>
-              
-              <input type="image" id="Booked" src="./images/welcomeimages/Booked.png" class="frontimages img-responsive "/>
-               <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/>
-             <!--<div class="More">
-                    <input type="image" id="Booked" src="./images/welcomeimages/Booked.png" class="frontimages"/>
-                  <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreImage" />
-              </div>
-             <img src="./images/welcomeimages/more.png" class="moreadjust"/>-->
-      </div> 
-   </div>
-    <div class=" row bottompads" >
-            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">
-
-              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage"/>
-              <input type="image" id="pending" src="./images/welcomeimages/pending.png" class="frontimages"/>
-              <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/>
+  </div>
+    
+    
+  </div>
 
 
-          </div>
+
+
+
+  <!-- 2nd step --> 
+<div class="container">  
+  <div class="row paddertop steptwo">
+    <div class="col-lg-4 col-md-4 col-sm-5 col-xs-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 stepTwoPosition">
+            
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-10">
+              <input type="image" id="profile1" src="./images/welcomeimages/steptwoImage2.png" class="ImageOneStep2 img-responsive">
+              <input type="image" id="profile2" src="./images/welcomeimages/steptwoImage1.png" class="ImagetwoStep2 img-responsive">
+            </div>
     </div>
 
-  <div class=" row bottompads" >
-            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">
-                <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage"/>
-                 <input type="image" id="declined" src="./images/welcomeimages/declined.png" class="frontimages"/>
-                 <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/>
-            </div>
+    <div class="col-lg-1 col-sm-1 col-xs-1">
+            <img src="./images/welcomeimages/dividerstep2.png" class="img-responsive">
+    </div>
+
+    <div class="col-lg-4 col-sm-5 col-xs-5">
+            <h3>Step 2</h3>
+          <img src="./images/welcomeimages/Select-talent.png" class="img-responsive">
+          <img src="./images/welcomeimages/text.png" class="buttonAdjust img-responsive">
+          <!--<p class="margin-top">The single colon syntax (e.g. “:before” or “:first-child”) is the syntax used for both pseudo-classes and pseudo-selectors in all versions of CSS prior to CSS3.</p>-->
+          <input type="image" id="startbutton" src="./images/welcomeimages/buttonget.png" class="buttonAdjust img-responsive"/>
+           
+    </div>
+
   </div>
-
-  <div class=" row bottompads" >
-            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">
-              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage"/>
-              <input type="image" id="archived" src="./images/welcomeimages/archived.png" class="frontimages"/>
-              <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/>
-
-            </div>
-  </div>
-
 </div>
 
-  </div>
+  <!-- Step 3-->
+<div class="container">
+ <div class="row paddertop stepthree">
+     
+      <div class="col-lg-4 col-md-4 col-sm-5  col-xs-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <h3>Step 3</h3>
+          <img src="./images/welcomeimages/Book-talent.png" class="img-responsive">
+          <img src="./images/welcomeimages/text.png" class="buttonAdjust img-responsive">
+          <input type="image" id="startbutton" src="./images/welcomeimages/buttonget.png" class="buttonAdjust img-responsive"/>
+      </div>
 
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+          <img src="./images/welcomeimages/dividerstep3.png" class="img-responsive">
+      </div>
+        
+      <div class="col-lg-6 col-md-5 col-sm-5 col-xs-5 bookingpads"><!-- Step 3 booking fields-->
+          <div class=" row bottompads" >
+            <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage img-responsive"/>
+              <div class="col-lg-8 col-md-4 col-sm-4 col-xs-2">
+                <input type="image" id="Booked" src="./images/welcomeimages/booked.png" class="frontimages img-responsive "/>
+                <input type="image" id="Booked" src="./images/welcomeimages/image-stepthree.png" class="stepthreeleft img-responsive "/>
+
+                <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/>
+              </div>
+                
+          </div>
+        <div class=" row bottompads" >
+              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage img-responsive"/>
+              <div class="col-lg-8 col-md-4 col-sm-4 col-xs-2">
+              <input type="image" id="Booked" src="./images/welcomeimages/pending.png" class="frontimages img-responsive "/>
+              <input type="image" id="Booked" src="./images/welcomeimages/image-stepthree.png" class="stepthreeleft img-responsive "/>
+            <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/></div>
+        </div>
+
+      <div class=" row bottompads" >
+              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage img-responsive"/>
+              <div class="col-lg-12 col-md-4 col-sm-4 col-xs-2">
+              <input type="image" id="Booked" src="./images/welcomeimages/declined.png" class="frontimages img-responsive "/>
+              <input type="image" id="Booked" src="./images/welcomeimages/image-stepthree.png" class="stepthreeleft img-responsive "/>
+            <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/></div>
+      </div>
+
+    <div class=" row bottompads" >
+              <img src="./images/welcomeimages/Rectangle-1.png" class="headerimage img-responsive"/>
+              <div class="col-lg-8 col-md-4 col-sm-4 col-xs-2">
+              <input type="image" id="Booked" src="./images/welcomeimages/archived.png" class="frontimages img-responsive "/>
+              <input type="image" id="Booked" src="./images/welcomeimages/image-stepthree.png" class="stepthreeleft img-responsive "/>
+              <input type="image" id="Booked" src="./images/welcomeimages/more.png" class="moreadjust img-responsive"/></div>
+      </div>
+ </div>
+</div>
+  
+  
+  
 </div>
 
 
@@ -189,66 +196,70 @@
 <div class="container bgimageFooter top-paddings">
     <div class="row footeradjustment">
     <!-- Column for logo.email and Number-->
-        <div class="col-md-2 "> 
-          <div class="row boundings"> <img src="./images/welcomeimages/tempal-logo.png">  </div>
-          <div class="row boundings"><h4><img src="./images/welcomeimages/MessageIcon.png">  support@templar.com</h4></div>
-          <div class="row boundings"><h4> <img src="./images/welcomeimages/phoneIcon.png"> +923125479188</h4></div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2  footerpads"> 
+         <img src="./images/welcomeimages/tempal-logo.png" class="img-responsive"> 
+         <img src="./images/welcomeimages/MessageIcon.png" class="img-responsive"><h6>  support@templar.com</h6>
+         <img src="./images/welcomeimages/phoneIcon.png" class="img-responsive"><h6> +923125479188</h6>
+          
+         
+
+      
         </div>
       
-        <div class="col-md-2 col-md-offset-2 footerpads">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 footerpads">
           <div class="row "><h4>Features</h4> </div>
           <div class="row "><a href="#"> <h5>Home</h5></a> </div>
           <div class="row "><a href="#"><h5>For Emplyoers</h5></a></div>
           <div class="row "><a href="#"><h5>For Jobseekers</h5></a></div>
-      </div>
+        </div>
       
 
-      <div class="col-md-2 footerpads">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 footerpads">
           <div class="row "><h4>About</h4></a></div>     
-          <div class="row "><a href="#"><h5>About us</<h5> </a></div>
+          <div class="row "><a href="#"><h5>About us</h5> </a></div>
           <div class="row "><a href="#"><h5>Tempal Blog</h5></a></div>
           <div class="row "><a href="#"><h5>Careers</h5></a></div>
      </div>
      
 
-      <div class="col-md-2 footerpads"> 
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 footerpads"> 
         <div class="row "><a href="#"><h4>Support</h4> </a></div>    
         <div class="row "><a href="#"><h5>For Emplyoers</h5></a></div>
-          <div class="row "><a href="#"><h5>For Jobseekers</h5></a></div>
-           <div class="row "><a href="#"><h5>Contact Us</h5></a></div>
-
+        <div class="row "><a href="#"><h5>For Jobseekers</h5></a></div>
+        <div class="row "><a href="#"><h5>Contact Us</h5></a></div>
       </div>
-      <div class="col-md-2 footerpads"> 
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 footerpads"> 
         <div class="row "><a href="#"><h4>Legal</h4></a></div>
-          <div class="row "><a href="#"><h5>Terms of Use</h5></a></div>
-           <div class="row "><a href="#"><h5>Privacy Policy</h5></a></div>
-
-        </div>  
+        <div class="row "><a href="#"><h5>Terms of Use</h5></a></div>
+        <div class="row "><a href="#"><h5>Privacy Policy</h5></a></div>
+      </div>  
+     
      </div>
   </div>
 
-</div>
+  
 
 
 <!-- Footer-->
 <footer class="container footer footerbg ">
   <div class="footer-content ">
-  <div class="container-fluid padadjustment">
+    <div class="container-fluid padadjustment">
       <div class="row footeradjustment">
-        <div class="col-md-2 "> 
-         <a href="#"> <img src="./images/welcomeimages/footersection.png"></a>
-         <a href="#"> <img src="./images/welcomeimages/twitter.png"></a>
-        <a href="#">  <img src="./images/welcomeimages/linkedin.png"></a>
-        <a href="#">  <img src="./images/welcomeimages/googlesym.png" class="padsoffsite"></a>
-                               </div>   
-         <div class="col-md-2 col-md-offset-7"> <img src="./images/welcomeimages/copyrights.png"> </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5 "> 
+         <a href="#"> <img src="./images/welcomeimages/footersection.png" ></a>
+         <a href="#"> <img src="./images/welcomeimages/twitter.png" ></a>
+         <a href="#">  <img src="./images/welcomeimages/linkedin.png" ></a>
+         <a href="#">  <img src="./images/welcomeimages/googlesym.png" class="padsoffsite"></a>
+        </div>   
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5 col-lg-offset-7 col-md-offset-6 col-sm-offset-3 col-xs-offset-2 "> <img src="./images/welcomeimages/copyrights.png" class="img-responsive"> </div>
       </div>
-  </div>
+    </div>
 </div>
 </footer>
 
-  </body>
-
+     
+    </body>
+</html>
 
 
 
